@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<TITLE>STUDENT CHOICE PROCESS PAGE</TITLE>
+</HEAD>
+<BODY>
+<TABLE BORDER="5" WIDTH="100%" CELLSPACING="10">
+<CAPTION>ENTER YOUR CHOICE</CAPTION>
+<TR>
+<TH>SERIAL NUMBER</TH>
+<TH>OPTIONS YOUCAN CHOOSE</TH>
+</TR>
+<TR ALIGN="center">
+<TD WIDTH="50%">1</TD><TD WIDTH="50%"TD>Get your total marks</TD>
+</TR>
+
+<TR ALIGN="center">
+<TD WIDTH="50%">2</TD><TD WIDTH="50%">Get your marksheet</TD>
+</TR>
+
+<TR ALIGN="center">
+<TD WIDTH="50%">3</TD><TD WIDTH="50%">Get Ranklist of top 5 students</TD>
+</TR>
+
+<TR ALIGN="center">
+<TD WIDTH="50%">4</TD><TD WIDTH="50%">Login Again</TD>
+
+</TR>
+
+
+</TABLE><br><br><br>
+<CENTER>
+<FORM ACTION='http://127.0.0.1:5000/choice for student' METHOD="POST">
+<LABEL for="a">Enter your choice :</LABEL>&nbsp &nbsp
+<INPUT TYPE="text" NAME="CHOICE" id="a" required><FONT COLOR="red">*</FONT>&nbsp &nbsp&nbsp &nbsp
+<LABEL for="b">Enter your Roll number :</LABEL>&nbsp &nbsp
+<INPUT TYPE="text" NAME="ROLL" id="b" required><FONT COLOR="red">*</FONT>&nbsp &nbsp&nbsp &nbsp
+<LABEL for="c">Enter your class :</LABEL>&nbsp &nbsp
+<INPUT TYPE="text" NAME="CLASS" id="c" required><FONT COLOR="red">*</FONT><br><br><br>
+<FONT COLOR="red">*</FONT>&nbsp &nbsp &nbsp Means you have to fill that particular field <br><br><br>
+<INPUT TYPE="submit" VALUE="SUBMIT" >&nbsp &nbsp &nbsp &nbsp
+<INPUT TYPE="reset" VALUE="RESET" >
+</FORM>
+</CENTER>
+</BODY>
+</HTML>
